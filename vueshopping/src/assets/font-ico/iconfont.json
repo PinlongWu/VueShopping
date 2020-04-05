@@ -1,0 +1,100 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "578988",
+      "name": "搜索",
+      "font_class": "sousuo-copy",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "680948",
+      "name": "财务",
+      "font_class": "caiwu",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "1166460",
+      "name": "购物车 ",
+      "font_class": "gouwuche2",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "1621660",
+      "name": "锁",
+      "font_class": "suo",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "1667269",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "1901678",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "f030d",
+      "unicode_decimal": 983821
+    },
+    {
+      "icon_id": "2459357",
+      "name": "系统",
+      "font_class": "system-copy",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "2959077",
+      "name": "人员管理",
+      "font_class": "renyuanguanli",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "4954952",
+      "name": "发现",
+      "font_class": "faxian",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "5651515",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "5725895",
+      "name": "智能农场",
+      "font_class": "germination",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "8655879",
+      "name": "商品",
+      "font_class": "shangpin",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "10995714",
+      "name": "人",
+      "font_class": "ren",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}
