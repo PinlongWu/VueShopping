@@ -48,6 +48,13 @@
       "unicode_decimal": 983821
     },
     {
+      "icon_id": "2129918",
+      "name": "数据统计",
+      "font_class": "shujutongji",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
       "icon_id": "2459357",
       "name": "系统",
       "font_class": "system-copy",
@@ -81,6 +88,27 @@
       "font_class": "germination",
       "unicode": "e603",
       "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "6246414",
+      "name": "权限",
+      "font_class": "quanxian",
+      "unicode": "e789",
+      "unicode_decimal": 59273
+    },
+    {
+      "icon_id": "7474654",
+      "name": "订单管理",
+      "font_class": "dingdanguanli",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "7698845",
+      "name": "1商品管理",
+      "font_class": "shangpinguanli",
+      "unicode": "e617",
+      "unicode_decimal": 58903
     },
     {
       "icon_id": "8655879",

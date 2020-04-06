@@ -10,6 +10,11 @@ import './assets/font-ico/iconfont.css'
 import axios from 'axios'
 // axios设置根目录
 axios.defaults.baseURL = 'http://localhost:3000'
+axios.interceptors.request.use(config => {
+  config.headers.Authorization = window.sessionStorage.getItem('token');
+  // 在最后面必须 return config;
+  return config;
+})
 // 在Vue原型上绑定axios
 Vue.prototype.$http = axios
 Vue.config.productionTip = false
