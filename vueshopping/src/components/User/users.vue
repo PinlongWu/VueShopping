@@ -233,7 +233,7 @@ export default {
   methods: {
     async getUserList() {
       const { data: res } = await this.$http.get(
-        "https://www.easy-mock.com/mock/5e3d45740d15c76d78fb0aef/wpl/users",
+        "https://www.liulongbin.top:8888/api/private/v1/users",
         { params: this.queryInfo }
       );
       //   console.log(res);
