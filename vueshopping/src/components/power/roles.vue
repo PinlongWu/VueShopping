@@ -364,7 +364,7 @@ export default {
       ).catch(err => err);
       // 如果角色确认删除,则返回值为字符串 confirm
       // 如果角色取消删除,则返回值为字符串 cancel
-      if (confirmRoles !== 'confirm') {
+      if (confirmRoles !== "confirm") {
         return this.$message.info("已取消删除!");
       }
       // 确定删除并提交
@@ -375,7 +375,7 @@ export default {
         return this.$message.error("删除用户失败!");
       }
       this.$message.success("删除用户成功!");
-      this.getRoleList()
+      this.getRoleList();
     }
   }
 };

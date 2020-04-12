@@ -211,7 +211,7 @@ export default {
         "https://www.liulongbin.top:8888/api/private/v1/categories",
         { params: this.querInfo }
       );
-      console.log(res);
+    //   console.log(res);
       if (res.meta.status !== 200) {
         return this.$message.error("获取商品分类失败!");
       }
