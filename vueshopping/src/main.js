@@ -14,14 +14,24 @@ import VueQuillEditor from 'vue-quill-editor'
 import 'quill/dist/quill.core.css' // import styles
 import 'quill/dist/quill.snow.css' // for snow theme
 import 'quill/dist/quill.bubble.css' // for bubble theme
+// 导入NProgress对应的js和css
+import NProgress from 'nprogress'
+import 'nprogress/nprogress.css'
 // 导入axios
 import axios from 'axios'
 // axios设置根目录
 axios.defaults.baseURL = 'http://localhost:3000'
 // 用axios拦截器的request，在请求头添加Authorization字段提供tokoen令牌，使登陆过后有权限访问其他接口
+// 再 request 拦截器中，展示进度条 NProgress.start()
 axios.interceptors.request.use(config => {
+  NProgress.start()
   config.headers.Authorization = window.sessionStorage.getItem('token');
   // 在最后面必须 return config;
+  return config;
+})
+// 再 response 拦截器中，隐藏进度条 NProgress.done()
+axios.interceptors.response.use(config =>{
+  NProgress.done()
   return config;
 })
 // 在Vue原型上绑定axios
