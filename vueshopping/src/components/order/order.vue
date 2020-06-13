@@ -36,7 +36,7 @@
                     <template slot-scope="scope">{{scope.row.create_time | dateFormat}}</template>
                 </el-table-column>
                 <el-table-column label="操作">
-                    <template slot-scope="scope">
+                    <template>
                         <el-button size="mini" type="primary" icon="el-icon-edit" @click="showBox"></el-button>
                         <el-button
                             size="mini"
@@ -183,4 +183,3 @@ export default {
 </script>
 <style lang="less" scoped>
 </style>
-

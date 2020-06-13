@@ -146,8 +146,7 @@
     </el-dialog>
   </div>
 </template>
-  </div>
-</template>
+
 <script>
 export default {
   data() {
